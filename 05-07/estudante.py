@@ -13,3 +13,10 @@ class Estudante
         this.certificacao = 1;
     }
 }
+
+//Testes:
+var estudante1: Estudante;
+estudante1 = new Estudante("Moisés", "m09817153");
+var estudante2: Estudante; 
+estudante2 = new Estudante("Luís Eduardo", "m103657");
+console.log(estudante1, estudante2);
