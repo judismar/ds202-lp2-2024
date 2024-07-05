@@ -1,4 +1,4 @@
-#Defina uma interface TipoGeometricoRetangular, na qual haverá duas constantes: LARGURA e ALTURA.
+//Defina uma interface TipoGeometricoRetangular, na qual haverá duas constantes: LARGURA e ALTURA.
 
 interface TipoGeometricoRetangular
 {
