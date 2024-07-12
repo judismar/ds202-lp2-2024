@@ -1,4 +1,10 @@
-class Retangulo
+interface FormaGeometrica
+{
+    perimetro: () => number;
+    area: () => number;
+}
+
+class Retangulo implements FormaGeometrica
 {
     private altura: number;
     private largura: number;
@@ -20,7 +26,7 @@ class Retangulo
     }
 }
 
-class Circulo
+class Circulo implements FormaGeometrica
 {
     private pi: number;
     private raio: number;
@@ -47,3 +53,8 @@ r = new Retangulo(4, 3);
 var c: Circulo;
 c = new Circulo(10);
 console.log(c.perimetro(), c.area())
+
+var x: FormaGeometrica[];
+x =[new Retangulo(2, 5), new Circulo(4), new Circulo(90), new Retangulo(1, 1)];
+
+console.log(x);
