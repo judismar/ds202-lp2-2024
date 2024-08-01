@@ -1,0 +1,11 @@
+Sinta-se à vontade para usar HTML para fazer soluções gráficas.
+
+1) Criar a classe  Numero (tipo não-primitivo, a partir do primitivo number), com as operações de soma, multiplicação, divisão, subtração e resto.
+
+2) Criar a interface FormaGeometrica, com atributo declarado PI e métodos perímetro e area declarados (sem definição ou implementação).
+
+3) Criar as classes Circulo e Retangulo, com métodos área e perímetro: usar implements (conceito de herança).
+
+4) Criar também a classe Quadrado, que herda de retângulo (usar extends), cujo construtor tem apenas 1 lado.
+
+Desafio (ponto extra): Criar classe calculadora, com operações soma, multiplicação, divisão, subtração, resto e potência. Usar a classe Numero, e não o tipo primitivo number.
