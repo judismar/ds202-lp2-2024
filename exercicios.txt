@@ -1,0 +1,7 @@
+Exercícios de revisão com foco nos temas de TCC e Banco de Dados.
+
+1) Crie uma classe com construtor, ao menos um segundo método público e ao menos um atributo privado.
+
+2) O que queremos armazenar no banco de dados como classes e atributos? Quais métodos/operações serão necessárias? Faça mais classes, todas encapsuladas.
+
+3) Efetue ao menos uma herança, isto é, faça uma classe herdar de outra.
