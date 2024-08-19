@@ -1,0 +1,9 @@
+1) Crie a classe Jogador, com atributos protegidos 'vida', 'pontosMagia', 'força' e 'inteligência' (pode criar mais atributos, como agilidade e defesa, se quiser). Defina um construtor com parâmetros padrão para cada atributo (por exemplo, por padrão vida = 100). Defina também os métodos para retornar cada um desses atributos, mas não para alterá-los, pois isso é feito nas subclasses. Protected fere a propriedade de encapsulamento? Por quê?
+
+2) Crie a classe Habilidade, com atributos 'nome' e 'usoPtMagia'. Crie seu construtor, com ptMagia padrão de 1.
+
+3) Dentro de Jogador, crie um novo atributo, um array de Habilidade (um jogador tem várias habilidades, não apenas uma).
+
+4) Crie as Classes Guerreiro, Mago e Arqueiro, todos herdando de Jogador. Estas classes serão efetivamente instanciadas. Um Jogador que não é nenhuma das 3 não tem uma profissão ou estilo de combate.
+
+5) Instancie as classes e faça testes.
